@@ -1,20 +1,20 @@
-<script setup lang="ts">
+<script setup>
     import { defineProps } from 'vue';
 
 defineProps({
   title: {
     type: String,
-    default: 'Become a Vue Dev',
+    default: 'FemdomFunds',
   },
   subtitle: {
     type: String,
-    default: 'Find the Vue job that fits your skills and needs',
+    default: 'Authorized and secure platform to connect with verified professional femdoms – ensuring trust, privacy, and safety with every interaction',
   }
 });
 </script>
 
 <template>
-  <section class="bg-green-700 py-20 mb-4">
+  <section class="bg-black py-10">
     <div
         class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center"
     >
